@@ -1,4 +1,6 @@
 Dogpots::Application.routes.draw do
+  resources :spots, except: :edit
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
