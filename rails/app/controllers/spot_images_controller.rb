@@ -1,0 +1,2 @@
+class SpotImagesController < ApplicationController
+end
