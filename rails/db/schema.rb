@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120718134208) do
+ActiveRecord::Schema.define(:version => 20120718144855) do
 
   create_table "comments", :force => true do |t|
     t.integer  "spot_id"
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(:version => 20120718134208) do
   add_index "spot_images", ["spot_id"], :name => "index_spot_images_on_spot_id"
 
   create_table "spots", :force => true do |t|
+    t.integer  "user_id"
     t.string   "title"
     t.text     "text"
     t.string   "street"
@@ -59,6 +60,13 @@ ActiveRecord::Schema.define(:version => 20120718134208) do
     t.string   "city"
     t.string   "latitude"
     t.string   "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

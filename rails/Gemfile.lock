@@ -32,6 +32,8 @@ GEM
     builder (3.0.0)
     cocaine (0.2.1)
     erubis (2.7.0)
+    faker (1.0.1)
+      i18n (~> 0.4)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
@@ -94,6 +96,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faker
   paperclip
   rails (= 3.2.6)
   rails-api
