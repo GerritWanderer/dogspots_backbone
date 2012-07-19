@@ -5,5 +5,6 @@ Dogpots::Application.routes.draw do
   resources :ratings, except: :edit
   resources :spots, except: :edit
   
-  # root :to => 'welcome#index'
+  get "app/index"
+  root :to => 'app#index'
 end
