@@ -15,7 +15,7 @@ window.Dogspots = new (Backbone.Router.extend({
     },
     show: function(id) {
       var spot = this.spots.get(id);
-      var spotView = new SpotView({model: spot});
+      var spotView = new SpotShowView({model: spot});
       $("#container").html(spotView.render().el);
     },
 

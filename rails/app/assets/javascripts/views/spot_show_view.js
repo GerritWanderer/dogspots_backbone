@@ -1,4 +1,4 @@
-window.SpotView = Backbone.View.extend({
+window.SpotShowView = Backbone.View.extend({
     tagName: 'li',
     template: HandlebarsTemplates['spots/show'],
 
