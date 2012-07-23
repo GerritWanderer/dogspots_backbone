@@ -1,6 +1,6 @@
 class SpotsController < ApplicationController
 	def index
-		@spots = Spot.all
+		@spots = Spot.includes([:ratings, :comments, :user])
 		render rabl: @spots
 	end
 
