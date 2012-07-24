@@ -6,15 +6,10 @@ window.SpotsView = Backbone.View.extend({
     },
 
     render: function(){
-        this.renderAll()
-        return this;
-    },
-
-    renderAll: function(){
         this.$el.empty();
         this.collection.forEach(this.renderOne, this);
+        return this;
     },
-
     renderOne: function(spot){
         var spotView = new SpotIndexView({model: spot});
         this.$el.append(spotView.render().el);

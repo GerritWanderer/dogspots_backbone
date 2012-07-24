@@ -6,15 +6,10 @@ window.CommentsView = Backbone.View.extend({
     },
 
     render: function(){
-        this.renderAll()
-        return this;
-    },
-
-    renderAll: function(){
         this.$el.empty();
         this.collection.forEach(this.renderOne, this);
+        return this;
     },
-
     renderOne: function(comment){
         var commentView = new CommentView({model: comment});
         this.$el.append(commentView.render().el);
