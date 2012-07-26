@@ -3,7 +3,7 @@ window.SpotIndexView = Backbone.View.extend({
   template: HandlebarsTemplates['spots/index'],
 
   events: {
-  'click': 'show'
+    'click': 'show'
   },
   initialize: function(){
     this.model.on('change', this.render, this);

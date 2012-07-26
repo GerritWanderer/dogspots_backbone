@@ -18,8 +18,10 @@ window.Dogspots = new (Backbone.Router.extend({
     this.spot = new window.Spot({id: id});
     this.spotView = new SpotShowView({model: this.spot});
     this.commentsView = new CommentsView({collection: this.spot.get("comments")});
+    this.commentNewView = new CommentNewView({collection: this.spot.get("comments")});
     $("#container").html(this.spotView.render().el);
     $('#container').append(this.commentsView.render().el);
+    $('#container').append(this.commentNewView.render().el);
     this.spot.fetch();
   },
   newSpot: function(id) {

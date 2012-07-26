@@ -5,8 +5,7 @@ window.SpotNewView = Backbone.View.extend({
     "submit #new-spot": "save"
   },
   initialize: function(){
-    this.model = new this.collection.model()
-    this.model.on('change:errors', this.render, this);
+    this.model = new this.collection.model();
   },
 
   save: function(e){
