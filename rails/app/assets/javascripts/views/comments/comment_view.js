@@ -1,5 +1,5 @@
 window.CommentView = Backbone.View.extend({
-  tagName: 'li',
+  tagName: 'div',
   template: HandlebarsTemplates['comments/index'],
 
   initialize: function(){

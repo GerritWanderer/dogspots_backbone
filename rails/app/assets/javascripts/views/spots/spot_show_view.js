@@ -1,5 +1,5 @@
 window.SpotShowView = Backbone.View.extend({
-  tagName: 'li',
+  tagName: 'div',
   template: HandlebarsTemplates['spots/show'],
 
   initialize: function(){

@@ -1,5 +1,5 @@
 window.SpotIndexView = Backbone.View.extend({
-  tagName: 'li',
+  tagName: 'div',
   template: HandlebarsTemplates['spots/index'],
 
   events: {
