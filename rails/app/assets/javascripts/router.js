@@ -1,7 +1,8 @@
 window.Dogspots = new (Backbone.Router.extend({
     routes: {
         "": "index",
-        "spots/:id": "show"
+        "spots/:id": "show",
+        "new": "newSpot"
     },    
     initialize: function(){
         this.spots = new Spots();
@@ -21,7 +22,10 @@ window.Dogspots = new (Backbone.Router.extend({
       $('#container').append(this.commentsView.render().el);
       this.spot.fetch();
     },
-
+    newSpot: function(id) {
+      this.spotNewView = new SpotNewView({collection: this.spots});
+      $("#container").html(this.spotNewView.render().el)
+    },
     start: function(){
         Backbone.history.start();
     }
