@@ -15,6 +15,7 @@
 //= require underscore
 //= require backbone
 //= require backbone-relational
+//= require backbone.syphon
 //= require handlebars.runtime
 //
 //= require_tree ../templates/

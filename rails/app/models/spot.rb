@@ -7,6 +7,7 @@ class Spot < ActiveRecord::Base
   attr_accessible :user_id, :city, :latitude, :longitude, :street, :text, :title, :zip
 
   def average_rating
+  	return 0 if self.ratings.empty?
   	self.ratings.collect { |r| r.ground }.sum / self.ratings.size
   end
 end
