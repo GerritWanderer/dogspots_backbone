@@ -1,0 +1,619 @@
+TDogspots
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Info.plist Dogspots/Dogspots-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www cordova/../build/Dogspots.app/www
+cCpResource /Users/gerrit/Documents/CordovaLib/VERSION cordova/../build/Dogspots.app/VERSION
+cCopyPlistFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Cordova.plist Dogspots/Resources/../Cordova.plist
+cCpResource Dogspots/Resources/icons/icon-72.png cordova/../build/Dogspots.app/icon-72.png
+cCpResource Dogspots/Resources/icons/icon.png cordova/../build/Dogspots.app/icon.png
+cCpResource Dogspots/Resources/icons/icon@2x.png cordova/../build/Dogspots.app/icon@2x.png
+cCpResource Dogspots/Resources/Capture.bundle cordova/../build/Dogspots.app/Capture.bundle
+cCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/en.lproj/Localizable.strings Dogspots/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/es.lproj/Localizable.strings Dogspots/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib
+cCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/de.lproj/Localizable.strings Dogspots/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/se.lproj/Localizable.strings Dogspots/Resources/se.lproj/Localizable.strings
+cCpResource Dogspots/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png
+cCpResource Dogspots/Resources/splash/Default-Landscape~ipad.png cordova/../build/Dogspots.app/Default-Landscape~ipad.png
+cCpResource Dogspots/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png
+cCpResource Dogspots/Resources/splash/Default-Portrait~ipad.png cordova/../build/Dogspots.app/Default-Portrait~ipad.png
+cCpResource Dogspots/Resources/splash/Default@2x~iphone.png cordova/../build/Dogspots.app/Default@2x~iphone.png
+cCpResource Dogspots/Resources/splash/Default~iphone.png cordova/../build/Dogspots.app/Default~iphone.png
+cProcessPCH /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth Dogspots/Dogspots-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots normal i386
+cGenerateDSYMFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots
+cTouch /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005013F17F0000000000182900
+t1343484287
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005013F17E0000000000095860
+t1343484286
+s612448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005013F17E0000000000169880
+t1343484286
+s1480832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005013F17F00000000002FDC30
+t1343484287
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005013F17F00000000002051E0
+t1343484287
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005013F17F0000000000244490
+t1343484287
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005013F1800000000000089510
+t1343484288
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005013F1800000000000069670
+t1343484288
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005013F1810000000000353830
+t1343484289
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005013F1850000000000243A90
+t1343484293
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005013F18500000000000998D0
+t1343484293
+s628944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005013F18500000000001AB190
+t1343484293
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005013F186000000000006C8A0
+t1343484294
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005013F1880000000000905E40
+t1343484296
+s9461312
+
+N/Users/gerrit/Documents/CordovaLib/VERSION
+c0000000050089EE90000000000000005
+t1342742249
+s5
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m
+c000000005013F2DB0000000000001332
+t1343484635
+s4914
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m
+c000000005013F2DB0000000000000FFF
+t1343484635
+s4095
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib
+c000000005013F2DA0000000000001759
+t1343484634
+s5977
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Dogspots-Prefix.pch
+c000000005013F2DB00000000000003C1
+t1343484635
+s961
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/../Cordova.plist
+c000000005013F2DA000000000000094C
+t1343484634
+s2380
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/Capture.bundle
+c000000005013F2DA00000000000002EC
+t1343484634
+s748
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/de.lproj/Localizable.strings
+c000000005013F2DA0000000000000485
+t1343484634
+s1157
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/en.lproj/Localizable.strings
+c000000005013F2DA0000000000000470
+t1343484634
+s1136
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/es.lproj/Localizable.strings
+c000000005013F2DA000000000000047D
+t1343484634
+s1149
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon-72.png
+c000000005013F2DA0000000000001350
+t1343484634
+s4944
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon.png
+c000000005013F2DA0000000000000F3E
+t1343484634
+s3902
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon@2x.png
+c000000005013F2DA0000000000001EBD
+t1343484634
+s7869
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/se.lproj/Localizable.strings
+c000000005013F2DA0000000000000471
+t1343484634
+s1137
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005013F2DA0000000000176888
+t1343484634
+s1534088
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Landscape~ipad.png
+c000000005013F2DA00000000000674B7
+t1343484634
+s423095
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005013F2DA00000000001892C2
+t1343484634
+s1610434
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Portrait~ipad.png
+c000000005013F2DA0000000000066F23
+t1343484634
+s421667
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default@2x~iphone.png
+c000000005013F2DA0000000000055981
+t1343484634
+s350593
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default~iphone.png
+c000000005013F2DA0000000000016EC9
+t1343484634
+s93897
+
+N/Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m
+c000000005013F2DB0000000000000491
+t1343484635
+s1169
+
+N/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/Dogspots.LinkFileList
+c000000005013F3560000000000000183
+t1343484758
+s387
+
+N/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh
+c000000005013F3560000000000000027
+t1343484758
+s39
+
+N/Users/gerrit/Workspace/dogspots/ios/build/libCordova.a
+c000000005013F356000000000027C048
+t1343484758
+s2605128
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Capture.bundle
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Cordova.plist
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default~iphone.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Info.plist
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/MainViewController.nib
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/PkgInfo
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/VERSION
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon-72.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon@2x.png
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/www
+t2
+s0
+
+N/Users/gerrit/Workspace/dogspots/ios/www
+c000000005013F2DA0000000000000176
+t1343484634
+s374
+
+N/var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth
+t2
+s0
+
+NDogspots/Dogspots-Info.plist
+c000000005013F2DB00000000000009C8
+t1343484635
+s2504
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies21e52fd62ac4b541^649354d62ac4b541^---0#1#0#--18"Check dependencies36"07BC0774-DE3A-430F-850C-CD745D5E8466-
+
+CCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365177579.599250
+e365177579.814794
+r1
+xCompileC
+xbuild/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o
+x/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m1f9e99eb2ac4b541^2995d0eb2ac4b541^-241"/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-365177579#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m0000000000000000^76#24#76#24#2541#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m0000000000000000^3673"CompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o Dogspots/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gerrit/Workspace/dogspots/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-generated-files.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-own-target-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-all-target-headers.hmap -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-project-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/usr/local/lib/include -I/Users/gerrit/Workspace/dogspots/ios/build/UninstalledProducts/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources/i386 -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources -F/Users/gerrit/Workspace/dogspots/ios/cordova/../build -include /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch -MMD -MT dependencies -MF /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.dia -c /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/AppDelegate.m -o /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/AppDelegate.o36"32F6A7E8-C87D-428F-A1D9-5BDDE3C9E081-
+
+CCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365177579.684836
+e365177579.816149
+r1
+xCompileC
+xbuild/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o
+x/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o     if (self.invokeString)
+o              ^
+o/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m768cafeb2ac4b541^6ceed0eb2ac4b541^-565"/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-365177579#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m0000000000000000^107#14#107#14#2852#0#12"Deprecations--2@28"'invokeString' is deprecated-365177579#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m0000000000000000^111#92#111#92#3262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m0000000000000000^3715"CompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o Dogspots/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gerrit/Workspace/dogspots/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-generated-files.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-own-target-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-all-target-headers.hmap -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-project-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/usr/local/lib/include -I/Users/gerrit/Workspace/dogspots/ios/build/UninstalledProducts/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources/i386 -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources -F/Users/gerrit/Workspace/dogspots/ios/cordova/../build -include /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch -MMD -MT dependencies -MF /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.dia -c /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.m -o /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/MainViewController.o36"BCECD6D7-5EF5-4C04-B76D-8FF16B9A4370-
+
+CCompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o /Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365177579.599248
+e365177579.683580
+r1
+xCompileC
+xbuild/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o
+x/Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m779d99eb2ac4b541^8c0fafeb2ac4b541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m0000000000000000^3615"CompileC build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o Dogspots/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gerrit/Workspace/dogspots/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-generated-files.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-own-target-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-all-target-headers.hmap -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-project-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/usr/local/lib/include -I/Users/gerrit/Workspace/dogspots/ios/build/UninstalledProducts/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources/i386 -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources -F/Users/gerrit/Workspace/dogspots/ios/cordova/../build -include /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch -MMD -MT dependencies -MF /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.dia -c /Users/gerrit/Workspace/dogspots/ios/Dogspots/main.m -o /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/main.o36"82F4D26E-ED6B-4A04-BB64-04AA24AA209A-
+
+CCompileXIB /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib
+s365177558.939955
+e365177579.176290
+r1
+xCompileXIB
+x/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib
+o2012-07-28 16:12:58.446 Interface Builder Cocoa Touch Tool[38059:1b03] CFPreferences: user home directory at file://localhost/Users/gerrit/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib61c6f0d62ac4b541^07622deb2ac4b541^-240"2012-07-28 16:12:58.446 Interface Builder Cocoa Touch Tool[38059:1b03] CFPreferences: user home directory at file://localhost/Users/gerrit/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib0000000000000000^1114"CompileXIB Dogspots/Classes/MainViewController.xib    cd /Users/gerrit/Workspace/dogspots/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/MainViewController.nib /Users/gerrit/Workspace/dogspots/ios/Dogspots/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"05F167CE-4E69-4872-A48A-85B95AF1D692-
+
+CCopyPlistFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Cordova.plist Dogspots/Resources/../Cordova.plist
+s365177558.452790
+e365177558.772356
+r1
+xCopyPlistFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Cordova.plist
+xDogspots/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Dogspots/Resources/../Cordova.plistda1f74d62ac4b541^c7b9c5d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/../Cordova.plist0000000000000000^701"CopyPlistFile cordova/../build/Dogspots.app/Cordova.plist Dogspots/Resources/../Cordova.plist    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyPlist --convert binary1 --outdir /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app -- Dogspots/Resources/../Cordova.plist36"BF155C3B-922F-47B1-B8E4-F09268A55D77-
+
+CCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/de.lproj/Localizable.strings Dogspots/Resources/de.lproj/Localizable.strings
+s365177558.940578
+e365177558.976347
+r1
+xCopyStringsFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/de.lproj/Localizable.strings
+xDogspots/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy Dogspots/Resources/de.lproj/Localizable.strings9eeaf0d62ac4b541^1d03fad62ac4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/de.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Dogspots.app/de.lproj/Localizable.strings Dogspots/Resources/de.lproj/Localizable.strings    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/de.lproj -- Dogspots/Resources/de.lproj/Localizable.strings36"2905BB56-C5E2-4B61-993C-F569BCD9D14C-
+
+CCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/en.lproj/Localizable.strings Dogspots/Resources/en.lproj/Localizable.strings
+s365177558.773656
+e365177558.938854
+r1
+xCopyStringsFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/en.lproj/Localizable.strings
+xDogspots/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy Dogspots/Resources/en.lproj/Localizable.stringsd23ac6d62ac4b541^9a5cf0d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/en.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Dogspots.app/en.lproj/Localizable.strings Dogspots/Resources/en.lproj/Localizable.strings    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/en.lproj -- Dogspots/Resources/en.lproj/Localizable.strings36"DB3BDA4D-4040-498C-8955-1FEB8A7BAF8F-
+
+CCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/es.lproj/Localizable.strings Dogspots/Resources/es.lproj/Localizable.strings
+s365177558.812779
+e365177558.938643
+r1
+xCopyStringsFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/es.lproj/Localizable.strings
+xDogspots/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy Dogspots/Resources/es.lproj/Localizable.stringsac39d0d62ac4b541^6858f0d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/es.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Dogspots.app/es.lproj/Localizable.strings Dogspots/Resources/es.lproj/Localizable.strings    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/es.lproj -- Dogspots/Resources/es.lproj/Localizable.strings36"F70CCAF4-D6FD-4C1A-A695-3B94E052DC9A-
+
+CCopyStringsFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/se.lproj/Localizable.strings Dogspots/Resources/se.lproj/Localizable.strings
+s365177558.977717
+e365177558.987395
+r1
+xCopyStringsFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/se.lproj/Localizable.strings
+xDogspots/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy Dogspots/Resources/se.lproj/Localizable.strings527efad62ac4b541^71c6fcd62ac4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/se.lproj/Localizable.strings0000000000000000^792"CopyStringsFile cordova/../build/Dogspots.app/se.lproj/Localizable.strings Dogspots/Resources/se.lproj/Localizable.strings    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/se.lproj -- Dogspots/Resources/se.lproj/Localizable.strings36"511EA3CD-70CA-43EE-A069-87D5D1D4740F-
+
+CCpResource /Users/gerrit/Documents/CordovaLib/VERSION cordova/../build/Dogspots.app/VERSION
+s365177558.429755
+e365177558.451547
+r1
+xCpResource
+x/Users/gerrit/Documents/CordovaLib/VERSION
+xcordova/../build/Dogspots.app/VERSION
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy cordova/../build/Dogspots.app/VERSIONf2276ed62ac4b541^c2a173d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/VERSION000000000080d041^766"CpResource /Users/gerrit/Documents/CordovaLib/VERSION cordova/../build/Dogspots.app/VERSION    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gerrit/Documents/CordovaLib/VERSION /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"4AEC1758-192F-434B-A3FA-038FAC7844E0-
+
+CCpResource Dogspots/Resources/Capture.bundle cordova/../build/Dogspots.app/Capture.bundle
+s365177558.467394
+e365177558.805520
+r1
+xCpResource
+xDogspots/Resources/Capture.bundle
+xcordova/../build/Dogspots.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy cordova/../build/Dogspots.app/Capture.bundle71cb77d62ac4b541^2846ced62ac4b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Capture.bundle000000000080d041^792"CpResource Dogspots/Resources/Capture.bundle cordova/../build/Dogspots.app/Capture.bundle    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/Capture.bundle /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"51E18339-CFDA-410B-8C90-B2AF651C24FD-
+
+CCpResource Dogspots/Resources/icons/icon-72.png cordova/../build/Dogspots.app/icon-72.png
+s365177558.454239
+e365177558.457347
+r1
+xCpResource
+xDogspots/Resources/icons/icon-72.png
+xcordova/../build/Dogspots.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy cordova/../build/Dogspots.app/icon-72.png0d6d74d62ac4b541^751e75d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon-72.png000000000080d041^795"CpResource Dogspots/Resources/icons/icon-72.png cordova/../build/Dogspots.app/icon-72.png    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon-72.png /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"864374F0-B9B3-4328-BAEF-B34E71698E2A-
+
+CCpResource Dogspots/Resources/icons/icon.png cordova/../build/Dogspots.app/icon.png
+s365177558.458574
+e365177558.461852
+r1
+xCpResource
+xDogspots/Resources/icons/icon.png
+xcordova/../build/Dogspots.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy cordova/../build/Dogspots.app/icon.png448a75d62ac4b541^003c76d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon.png000000000080d041^786"CpResource Dogspots/Resources/icons/icon.png cordova/../build/Dogspots.app/icon.png    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon.png /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"D5FF6A80-814C-4377-BC58-27F7864EBB01-
+
+CCpResource Dogspots/Resources/icons/icon@2x.png cordova/../build/Dogspots.app/icon@2x.png
+s365177558.463162
+e365177558.466104
+r1
+xCpResource
+xDogspots/Resources/icons/icon@2x.png
+xcordova/../build/Dogspots.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy cordova/../build/Dogspots.app/icon@2x.pngb7b876d62ac4b541^fc5277d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/icon@2x.png000000000080d041^801"CpResource "Dogspots/Resources/icons/icon@2x.png" "cordova/../build/Dogspots.app/icon@2x.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/icons/icon@2x.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"6781FCB2-A8E1-4215-801A-6D850F7B6E6E-
+
+CCpResource Dogspots/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png
+s365177558.988761
+e365177558.994957
+r1
+xCpResource
+xDogspots/Resources/splash/Default-Landscape@2x~ipad.png
+xcordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png554cfdd62ac4b541^40c0fed62ac4b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png000000000080d041^857"CpResource "Dogspots/Resources/splash/Default-Landscape@2x~ipad.png" "cordova/../build/Dogspots.app/Default-Landscape@2x~ipad.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Landscape@2x~ipad.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"B423F76D-131F-4956-946C-8FC3366413BA-
+
+CCpResource Dogspots/Resources/splash/Default-Landscape~ipad.png cordova/../build/Dogspots.app/Default-Landscape~ipad.png
+s365177558.996286
+e365177558.999976
+r1
+xCpResource
+xDogspots/Resources/splash/Default-Landscape~ipad.png
+xcordova/../build/Dogspots.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy cordova/../build/Dogspots.app/Default-Landscape~ipad.png9434ffd62ac4b541^e3feffd62ac4b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Landscape~ipad.png000000000080d041^848"CpResource "Dogspots/Resources/splash/Default-Landscape~ipad.png" "cordova/../build/Dogspots.app/Default-Landscape~ipad.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Landscape~ipad.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"5C503F72-FD22-4A84-9293-033FA1D6AA58-
+
+CCpResource Dogspots/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png
+s365177559.001279
+e365177559.006621
+r1
+xCpResource
+xDogspots/Resources/splash/Default-Portrait@2x~ipad.png
+xcordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.pnge67900d72ac4b541^2db201d72ac4b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png000000000080d041^854"CpResource "Dogspots/Resources/splash/Default-Portrait@2x~ipad.png" "cordova/../build/Dogspots.app/Default-Portrait@2x~ipad.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Portrait@2x~ipad.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"FA6ADFC5-96E9-46E4-8A0F-28BFA0FAF066-
+
+CCpResource Dogspots/Resources/splash/Default-Portrait~ipad.png cordova/../build/Dogspots.app/Default-Portrait~ipad.png
+s365177559.007953
+e365177559.011681
+r1
+xCpResource
+xDogspots/Resources/splash/Default-Portrait~ipad.png
+xcordova/../build/Dogspots.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy cordova/../build/Dogspots.app/Default-Portrait~ipad.png983002d72ac4b541^b9fd02d72ac4b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default-Portrait~ipad.png000000000080d041^845"CpResource "Dogspots/Resources/splash/Default-Portrait~ipad.png" "cordova/../build/Dogspots.app/Default-Portrait~ipad.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default-Portrait~ipad.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"17941D2F-62F3-4D4B-B296-FA73B958FF1F-
+
+CCpResource Dogspots/Resources/splash/Default@2x~iphone.png cordova/../build/Dogspots.app/Default@2x~iphone.png
+s365177559.012991
+e365177559.016543
+r1
+xCpResource
+xDogspots/Resources/splash/Default@2x~iphone.png
+xcordova/../build/Dogspots.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy cordova/../build/Dogspots.app/Default@2x~iphone.pnge57a03d72ac4b541^6d3c04d72ac4b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default@2x~iphone.png000000000080d041^833"CpResource "Dogspots/Resources/splash/Default@2x~iphone.png" "cordova/../build/Dogspots.app/Default@2x~iphone.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default@2x~iphone.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"ACF4BBD4-FB1E-4E1C-A6A7-CEE3790F72E3-
+
+CCpResource Dogspots/Resources/splash/Default~iphone.png cordova/../build/Dogspots.app/Default~iphone.png
+s365177559.017849
+e365177559.023485
+r1
+xCpResource
+xDogspots/Resources/splash/Default~iphone.png
+xcordova/../build/Dogspots.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy cordova/../build/Dogspots.app/Default~iphone.pnga6ba04d72ac4b541^cf9f06d72ac4b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Default~iphone.png000000000080d041^824"CpResource "Dogspots/Resources/splash/Default~iphone.png" "cordova/../build/Dogspots.app/Default~iphone.png"    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gerrit/Workspace/dogspots/ios/Dogspots/Resources/splash/Default~iphone.png" /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"8FDACC5A-D592-46B4-9DB6-F226331D3FF9-
+
+CCpResource www cordova/../build/Dogspots.app/www
+s365177558.429270
+e365177558.453033
+r1
+xCpResource
+xwww
+xcordova/../build/Dogspots.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy cordova/../build/Dogspots.app/www0f0a6ed62ac4b541^2a0274d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/www000000000080d041^721"CpResource www cordova/../build/Dogspots.app/www    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gerrit/Workspace/dogspots/ios/www /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"74EA4807-57B0-42AB-ABD1-C8CA8B7F24D5-
+
+CGenerateDSYMFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots
+s365177581.593079
+e365177581.768865
+r1
+xGenerateDSYMFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Generating /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM6efa97ed2ac4b541^5edac4ed2ac4b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM000000000080d041^794"GenerateDSYMFile cordova/../build/Dogspots.app.dSYM cordova/../build/Dogspots.app/Dogspots    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots -o /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app.dSYM36"48225AF0-27D1-417F-B74D-64FE53C7B3A3-
+
+CLd /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots normal i386
+s365177579.823053
+e365177581.586176
+r1
+xLd
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Link /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspotsd7dfd2eb2ac4b541^061096ed2ac4b541^---0#0#0#--1814"Ld cordova/../build/Dogspots.app/Dogspots normal i386    cd /Users/gerrit/Workspace/dogspots/ios    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/gerrit/Workspace/dogspots/ios/cordova/../build -F/Users/gerrit/Workspace/dogspots/ios/cordova/../build -filelist /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/Dogspots.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/gerrit/Workspace/dogspots/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Dogspots36"8849A7A5-C3E2-467D-B7DA-950458F89124-
+
+CPhaseScriptExecution "Touch www folder" /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh
+s365177558.347434
+e365177558.421265
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'0fef59d62ac4b541^cbd96bd62ac4b541^---0#0#0#--19989"PhaseScriptExecution "Touch www folder" build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh    cd /Users/gerrit/Workspace/dogspots/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER gerrit    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/gerrit/Workspace/dogspots/ios/build    setenv BUILD_ROOT /Users/gerrit/Workspace/dogspots/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/gerrit/Workspace/dogspots/ios/cordova/../build    setenv CACHE_ROOT /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/gerrit/Workspace/dogspots/ios/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Dogspots.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/gerrit/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Dogspots.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Dogspots.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Dogspots.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/gerrit/Workspace/dogspots/ios/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Dogspots.app/Executables    setenv EXECUTABLE_FOLDER_PATH Dogspots.app    setenv EXECUTABLE_NAME Dogspots    setenv EXECUTABLE_PATH Dogspots.app/Dogspots    setenv FILE_LIST /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Dogspots.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/gerrit/Workspace/dogspots/ios/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Dogspots.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Dogspots/Dogspots-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/gerrit/Workspace/dogspots/ios/cordova/../build/include\" \"/Users/gerrit/Workspace/dogspots/ios/cordova/../build/usr/local/lib/include\" \"/Users/gerrit/Workspace/dogspots/ios/build/UninstalledProducts/include\" \"/Users/gerrit/Workspace/dogspots/ios/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Dogspots/Dogspots-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Dogspots.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Dogspots.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Dogspots.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER gerrit    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Dogspots.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Dogspots.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/gerrit/Workspace/dogspots/ios/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal/i386/Dogspots.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Dogspots.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12A269    setenv MAC_OS_X_VERSION_ACTUAL 1080    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0800    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Objects-normal    setenv OBJROOT /Users/gerrit/Workspace/dogspots/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Dogspots.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/PkgInfo    setenv PKGINFO_PATH Dogspots.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Dogspots.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Dogspots.app/PrivateHeaders    setenv PRODUCT_NAME Dogspots    setenv PRODUCT_SETTINGS_PATH /Users/gerrit/Workspace/dogspots/ios/Dogspots/Dogspots-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Dogspots    setenv PROJECT_DERIVED_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/DerivedSources    setenv PROJECT_DIR /Users/gerrit/Workspace/dogspots/ios    setenv PROJECT_FILE_PATH /Users/gerrit/Workspace/dogspots/ios/Dogspots.xcodeproj    setenv PROJECT_NAME Dogspots    setenv PROJECT_TEMP_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build    setenv PUBLIC_HEADERS_FOLDER_PATH Dogspots.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/gerrit/Workspace/dogspots/ios/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Dogspots.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Dogspots.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Dogspots.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/gerrit/Workspace/dogspots/ios    setenv SRCROOT /Users/gerrit/Workspace/dogspots/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/gerrit/Workspace/dogspots/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Dogspots    setenv TARGET_BUILD_DIR /Users/gerrit/Workspace/dogspots/ios/cordova/../build    setenv TARGET_NAME Dogspots    setenv TARGET_TEMP_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build    setenv TEMP_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build    setenv TEMP_FILES_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build    setenv TEMP_FILE_DIR /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build    setenv TEMP_ROOT /Users/gerrit/Workspace/dogspots/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Dogspots.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER gerrit    setenv USER_APPS_DIR /Users/gerrit/Applications    setenv USER_LIBRARY_DIR /Users/gerrit/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Dogspots.app/version.plist    setenv VERSION_INFO_BUILDER gerrit    setenv VERSION_INFO_FILE Dogspots_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Dogspots  PROJECT:Dogspots-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Dogspots.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F250    setenv XCODE_VERSION_ACTUAL 0440    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Script-304B58A110DAC018002A0835.sh36"F39096AF-B86B-4261-8D50-90EB7FEF501A-
+
+CProcessInfoPlistFile /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Info.plist Dogspots/Dogspots-Info.plist
+s365177558.334096
+e365177558.339437
+r1
+xProcessInfoPlistFile
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Info.plist
+xDogspots/Dogspots-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Dogspots/Dogspots-Info.plistf4c255d62ac4b541^bbf156d62ac4b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Dogspots-Info.plist0000000000000000^831"ProcessInfoPlistFile cordova/../build/Dogspots.app/Info.plist Dogspots/Dogspots-Info.plist    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility Dogspots/Dogspots-Info.plist -genpkginfo /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app/Info.plist36"ADCCB2FB-5BBD-4145-A8EA-BBCF7A953D2B-
+
+CProcessPCH /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth Dogspots/Dogspots-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365177579.184043
+e365177579.592328
+r1
+xProcessPCH
+x/var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth
+xDogspots/Dogspots-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Dogspots/Dogspots-Prefix.pch97522feb2ac4b541^8ca297eb2ac4b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/gerrit/Workspace/dogspots/ios/Dogspots/Dogspots-Prefix.pch0000000000000000^3679"ProcessPCH /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth Dogspots/Dogspots-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gerrit/Workspace/dogspots/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-generated-files.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-own-target-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-all-target-headers.hmap -iquote /Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/Dogspots-project-headers.hmap -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build/usr/local/lib/include -I/Users/gerrit/Workspace/dogspots/ios/build/UninstalledProducts/include -I/Users/gerrit/Workspace/dogspots/ios/cordova/../build -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources/i386 -I/Users/gerrit/Workspace/dogspots/ios/build/Dogspots.build/Debug-iphonesimulator/Dogspots.build/DerivedSources -F/Users/gerrit/Workspace/dogspots/ios/cordova/../build --serialize-diagnostics /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.dia -c /Users/gerrit/Workspace/dogspots/ios/Dogspots/Dogspots-Prefix.pch -o /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bt/q1925f5x4nl0_qqptnph494c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dogspots-Prefix-fxuvgxwekfqkrebjlsedyqwtjcxo/Dogspots-Prefix.pch.d36"C65FB48C-7575-444C-85D5-AF75CA9D9517-
+
+CTouch /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app
+s365177581.777081
+e365177581.785193
+r1
+xTouch
+x/Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app3c12c7ed2ac4b541^0003c9ed2ac4b541^---0#0#0#--577"Touch cordova/../build/Dogspots.app    cd /Users/gerrit/Workspace/dogspots/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@dogspot/bin:/Users/gerrit/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/gerrit/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/gerrit/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/gerrit/Workspace/dogspots/ios/cordova/../build/Dogspots.app36"40953E92-1163-43A7-A025-DDB5D2631B50-
+
