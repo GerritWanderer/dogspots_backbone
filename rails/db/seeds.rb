@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-rand(15).times do
+rand(8).times do
   user = User.new
   user.name = Faker::Internet.user_name
   user.email = Faker::Internet.email
@@ -27,9 +27,15 @@ rand(15).times do
     rating.clean = rand(5)
     rating.play = rand(5)
     rating.save!
+
+    unless spot.id > 8
+      spot_image = spot.spot_images.build({:user_id => user.id})
+      spot_image.image = File.open(Rails.root.join("public/images/seed/spot#{spot.id}.jpg"))
+      spot_image.save!
+    end
   end
 
-  rand(3).times do
+  rand(20).times do
   	spot = Spot.all.shuffle.first
     rating = spot.ratings.build({:user_id => user.id})
     rating.ground = rand(5)

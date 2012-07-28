@@ -9,5 +9,13 @@ window.Spot = Backbone.RelationalModel.extend({
       key: 'spot',
       includeInJSON: 'id',
     },
+  },{
+    type: Backbone.HasMany,
+    key: 'spot_images',
+    relatedModel: 'window.SpotImages',
+    reverseRelation: {
+      key: 'spot',
+      includeInJSON: 'id',
+    },
   }]
 });
