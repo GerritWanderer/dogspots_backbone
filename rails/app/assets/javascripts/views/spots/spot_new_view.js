@@ -10,7 +10,10 @@ window.SpotNewView = Backbone.View.extend({
 
   save: function(e){
     e.preventDefault();
-    attributes = {spot: Backbone.Syphon.serialize(this)};
+    attributes = {
+      spot: Backbone.Syphon.serialize(this),
+      spot_image: $(".spot_image_thumb").attr("src")
+    };
     this.collection.create(attributes, {
       success: function (model, response) {
         this.model = model

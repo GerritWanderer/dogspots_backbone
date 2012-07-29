@@ -11,6 +11,15 @@ class SpotsController < ApplicationController
 
 	def create
 	  @spot = Spot.create(params[:spot])
+	  
+	  unless params[:spot_image].empty?
+	  	encoded_string = Base64.decode64(params[:spot_image].gsub("data:image/jpeg;base64,", ""))
+	  	
+	  	spot_image = SpotImage.new({:spot_id => @spot.id, :user_id => 1})
+	    spot_image.image = StringIO.new(encoded_string).extend(StringIoHelper)
+    	spot_image.save
+    end
+
 	  render rabl: @spot
 	end
 end
