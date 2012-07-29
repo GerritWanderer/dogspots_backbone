@@ -12,7 +12,7 @@ class Spot < ActiveRecord::Base
   end
 
   def spot_image
-    return "/images/spot_images_shadow.gif" if self.spot_images.empty?
-    self.spot_images.shuffle.first.image.url(:thumb)
+    path = self.spot_images.empty? ? "/images/spot_images_shadow.gif" : self.spot_images.shuffle.first.image.url(:thumb)
+    return "http://0.0.0.0:3000#{path}" 
   end
 end

@@ -1,5 +1,5 @@
 window.Spot = Backbone.RelationalModel.extend({
-  urlRoot: '/spots',
+  urlRoot: 'http://0.0.0.0:3000/spots',
   idAttribute: 'id',
   relations: [{
     type: Backbone.HasMany,
