@@ -1,10 +1,15 @@
-<img class="spot_image_thumb" src="http://0.0.0.0:3000/images/spot_images_shadow.gif" />
 <form id="new-spot">
-  <input type="text" name="title" value="Hallo Welt" />
-  <input type="text" name="text" value="Lorem ipsum dolor sit amet" />
-  <input type="text" name="street" value="Alt-Stralau" />
-  <input type="text" name="zip" value="12345" />
-  <input type="text" name="city" value="Berlin" />
-  <input type="text" name="user_id" value="2" />
-  <input type="submit" value="absenden" />
+  <img class="spot_image_thumb" src="http://0.0.0.0:3000/images/spot_images_shadow.gif" />
+  <hr />
+  <div><label>Title:</label> <input type="text" name="title" value="Hallo Welt" /></div>
+  <div><label>Text:</label> <input type="text" name="text" value="Lorem ipsum dolor sit amet" /></div>
+  <div><label>Steet:</label><input type="text" name="street" value="Alt-Stralau" /></div>
+  <div>
+    <label>Zip / City:</label>
+    <input type="text" name="zip" value="12345" />
+    <input type="text" name="city" value="Berlin" /></div>
+  <div><label>Latitude:</label> <input type="text" id="latitude" name="latitude" value="" /></div>
+  <div><label>Longitude:</label> <input type="text" id="longitude" name="longitude" value="" /></div>
+  <input type="hidden" name="user_id" value="2" />
+  <div><input type="submit" value="absenden" /></div>
 </form>

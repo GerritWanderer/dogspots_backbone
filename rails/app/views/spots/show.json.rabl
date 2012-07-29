@@ -1,5 +1,5 @@
 object @spot => ""
-attributes :id, :title, :text, :street, :zip, :city, :average_rating, :spot_image, :created_at
+attributes :id, :title, :text, :street, :zip, :city, :latitude, :longitude, :average_rating, :spot_image, :created_at
 child :user do
   attributes :id, :name
 end

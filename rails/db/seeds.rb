@@ -19,6 +19,8 @@ rand(8).times do
     spot.street = Faker::Address.street_name
     spot.zip = Faker::Address.zip
     spot.city = Faker::Address.city
+    spot.latitude = "52.#{rand(42..57)}#{rand(1000..9999)}"
+    spot.longitude = "13.#{rand(22..55)}#{rand(1000..9999)}"
     spot.save!
 
     rating = spot.ratings.build({:user_id => user.id})

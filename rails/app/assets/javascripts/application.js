@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require google.maps
+//= require jquery.ui.map
 //= require underscore
 //= require backbone
 //= require backbone-relational
