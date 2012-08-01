@@ -16,6 +16,13 @@ gem 'paperclip'
 gem 'backbone-on-rails'
 gem 'eco'
 
+group :development do
+  gem 'guard'
+  gem 'guard-test'
+  gem 'growl'
+  gem 'ruby_gntp'
+end
+
 group :test do
   gem 'database_cleaner'
   gem 'capybara'
