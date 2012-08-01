@@ -26,7 +26,11 @@ class ActionDispatch::IntegrationTest
   # Stop ActiveRecord from wrapping tests in transactions
   self.use_transactional_fixtures = false
 
-  Capybara.javascript_driver = :poltergeist
+  
+  Capybara.register_driver :poltergeist do |app|
+    Capybara::Poltergeist::Driver.new(app, {:inspector => 'open'})
+  end
+  Capybara.default_driver = :poltergeist
 
   teardown do
     DatabaseCleaner.clean       # Truncate the database

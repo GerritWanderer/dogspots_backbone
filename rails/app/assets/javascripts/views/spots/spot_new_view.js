@@ -7,7 +7,10 @@ window.SpotNewView = Backbone.View.extend({
   initialize: function(){
     this.model = new this.collection.model();
 
-    navigator.geolocation.getCurrentPosition(onGeolocationSuccess, onGeolocationError);
+    try {
+      navigator.geolocation.getCurrentPosition(onGeolocationSuccess, onGeolocationError);
+    } catch(error) {}
+
     $("form .spot_image_thumb").live("click", function(){
       navigator.camera.getPicture(onCameraSuccess, onCameraFail, {
         quality: 50,
