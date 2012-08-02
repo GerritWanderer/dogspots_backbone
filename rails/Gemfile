@@ -12,9 +12,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'paperclip'
 gem 'backbone-on-rails'
 gem 'eco'
+gem 'devise'
+gem 'paperclip'
 gem 'rails_admin', :git => 'https://github.com/sferik/rails_admin.git'
 
 group :development do
