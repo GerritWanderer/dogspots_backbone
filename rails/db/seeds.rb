@@ -6,6 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+
+Admin.create!({:email => "admin@example.org", :password => "test123", :password_confirmation => "test123"})
+
 rand(8).times do
   user = User.new
   user.name = Faker::Internet.user_name
