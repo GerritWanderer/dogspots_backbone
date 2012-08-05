@@ -13,6 +13,7 @@ class Spot < ActiveRecord::Base
 
   def spot_image
     path = self.spot_images.empty? ? "/images/spot_images_shadow.gif" : self.spot_images.shuffle.first.image.url(:thumb)
-    return "http://0.0.0.0:3000#{path}" 
+    return "http://0.0.0.0:3000#{path}" if Rails.env.production? 
+    return "http://www.dogspots.de#{path}" if Rails.env.production?
   end
 end
