@@ -11,7 +11,8 @@
 <div data-role="view" id="navbar-home" data-title="Dogspots Berlin">
   <header data-role="header">
     <div data-role="navbar">
-      <span data-role="view-title">Dogspots Berlin</span>
+      <a id="back-button" class="nav-button" data-align="left" data-role="backbutton">Dogspots Berlin</a>
+      <span id="view-title" data-role="view-title">Dogspots Berlin</span>
       <a data-align="right" data-role="button" class="nav-button" href="#new">New Dogspot</a>
     </div>
   </header>
@@ -37,7 +38,7 @@
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
-
+a#back-button { display: none; }
 .km-ios #navbar-home .km-listview, .km-ios #navbar-grouped .km-list { background-color: #eaf1f5; }
 </style>
 <script>

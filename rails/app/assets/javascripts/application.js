@@ -10,7 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require cordova
 //= require jquery
 //= require jquery_ujs
 //= require underscore
@@ -19,6 +18,8 @@
 //= require backbone.syphon
 //= require handlebars.runtime
 //= require kendo.mobile
+//= require kendo.backbone
+//= require cordova
 //
 //= require_tree ../templates/
 //= require_tree ./models

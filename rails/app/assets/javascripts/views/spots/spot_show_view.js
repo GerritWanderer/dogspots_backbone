@@ -7,6 +7,8 @@ window.SpotShowView = Backbone.View.extend({
   },
 
   render: function(){
+    $("span#view-title").html(this.model.get("title"));
+    $("a#back-button").css("display", "inline-block");
     this.$el.html(this.template(this.model.toJSON()));
     return this;
   }
