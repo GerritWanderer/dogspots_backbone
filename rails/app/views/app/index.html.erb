@@ -1,2 +1,1 @@
-<a href="/#new" onclick="Backbone.history.navigate('new', true);">Create new spot</a> | <a onclick="Backbone.history.navigate('', true);">Back to Index</a>
 <div id="container" data-spots="<%= render('spots/index.json', object: Spot.all, :handler => :rabl ) %>">Loading...</div>

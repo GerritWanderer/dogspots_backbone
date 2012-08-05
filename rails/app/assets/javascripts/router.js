@@ -23,7 +23,7 @@ window.Dogspots = new (Backbone.Router.extend({
     $('#container').append(this.commentsView.render().el);
     $('#container').append(this.commentNewView.render().el);
     this.spot.fetch().complete(function(){
-      $('#map_canvas').gmap('addMarker', {'position': window.Dogspots.spot.get("latitude")+", "+window.Dogspots.spot.get("longitude"), 'bounds': true});
+      //$('#map_canvas').gmap('addMarker', {'position': window.Dogspots.spot.get("latitude")+", "+window.Dogspots.spot.get("longitude"), 'bounds': true});
     });  
   },
   newSpot: function(id) {

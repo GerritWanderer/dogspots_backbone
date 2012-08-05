@@ -13,13 +13,12 @@
 //= require cordova
 //= require jquery
 //= require jquery_ujs
-//= require google.maps
-//= require jquery.ui.map
 //= require underscore
 //= require backbone
 //= require backbone-relational
 //= require backbone.syphon
 //= require handlebars.runtime
+//= require kendo.mobile
 //
 //= require_tree ../templates/
 //= require_tree ./models

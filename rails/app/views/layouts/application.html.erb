@@ -7,8 +7,41 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<a href="/">Back</a>
+<div data-role="view" id="navbar-home" data-title="Dogspots Berlin">
+  <header data-role="header">
+    <div data-role="navbar">
+      <span data-role="view-title">Dogspots Berlin</span>
+      <a data-align="right" data-role="button" class="nav-button" href="#new">New Dogspot</a>
+    </div>
+  </header>
+  <%= yield %>
+</div>
 
-<%= yield %>
+<style scoped>
+#navbar-home h2,
+#navbar-grouped h2 {
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 1em 0 1.5em 1em;
+}
 
+#navbar-home img,
+#navbar-grouped img {
+  float: left;
+    width: 4em;
+    height: 4em;
+    margin: 0;
+    -webkit-box-shadow: 0 1px 3px #333;
+    box-shadow: 0 1px 3px #333;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.km-ios #navbar-home .km-listview, .km-ios #navbar-grouped .km-list { background-color: #eaf1f5; }
+</style>
+<script>
+  window.kendoMobileApplication = new kendo.mobile.Application(document.body);
+</script>
 </body>
 </html>

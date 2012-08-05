@@ -9,11 +9,11 @@ window.SpotsView = Backbone.View.extend({
     return this;
   },
   renderAll: function(){
-    this.$el.empty();
+    this.$el.html($('<ul data-role="listview"></ul>'));
     this.collection.forEach(this.renderOne, this);
   },
   renderOne: function(spot){
     var spotView = new SpotIndexView({model: spot});
-    this.$el.append(spotView.render().el);
+    $($(this.$el).children("ul")).append(spotView.render().el);
   }
 });
